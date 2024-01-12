@@ -12,9 +12,10 @@ for (let button of buttons) {
 }
 })
 
-
 function runGame() {
-
+    //Create two random num between 1 and 25 /
+    let num1 = Math.floor(Math.random() * 25) + 1;
+    let num2 = Math.floor(Math.random() * 25) + 1;
 }
 
 function checkAnswer() {
